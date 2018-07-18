@@ -1,0 +1,230 @@
+@charset 'utf-8';
+
+
+@media (min-width:880px) {
+
+    footer {
+        background-color: rgb(250, 104, 104);
+        margin-top: 50px;
+        box-shadow: 4px 1px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    footer > div:first-child {
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer > div:first-child > div:first-child {
+        margin: 20px 0;
+        display:flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 40%;
+        margin-left: 3%;
+    }
+
+    footer > div:first-child > div:first-child h1 {
+        font-size:2em;
+        margin-bottom:10px;
+        font-weight: bold;
+        color:rgb(245, 244, 244);
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    footer > div:first-child > div:first-child label {
+        color:rgb(245, 244, 244);
+        font-weight: bold;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    footer > div:first-child > div:first-child input {
+        border: none;
+        font-size: 0.8em;
+        padding:5px;
+        border-radius: 2px;
+        margin: 5px 0;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    select {
+        margin: 10px 0;
+        padding: 3px;
+        border: none;
+        font-size: 0.9em;
+        background-color: rgb(245, 244, 244);
+    }
+
+    .submit {
+        width: 20%;
+        border: none;
+        margin-top: 1%;
+        background-color: rgb(245, 244, 244);
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+        font-weight: bold;
+        color: rgb(250, 104, 104);
+        margin-left: 80%;
+        transition: 1s background-color;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .submit:hover {
+        background-color: rgb(250, 104, 104);
+        color: rgb(245, 244, 244);
+    }
+
+
+
+    form {
+        display:flex;
+        flex-direction: column;
+    }
+
+    footer > div:first-child > div:last-child {
+        margin-bottom: 10%;
+        display:flex;
+        width: 30%;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    footer > div:first-child > div:last-child img {
+        margin: 0 10px;
+        max-width: 200px;
+        max-height: 200px;
+        border-radius: 100px;
+    }
+
+    footer > div:first-child > div:last-child h4 {
+        font-size:1.3em;
+        margin:15px 0;
+        font-weight: bold;
+        color:rgb(245, 244, 244);
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    footer p {
+        color:rgb(245, 244, 244);
+        margin: 3px 0;
+    }
+
+    footer > div:last-child {
+        clear:both;
+        display:flex;
+        padding:5px;
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+}
+
+@media (max-width:879px) {
+    footer {
+        background-color: rgb(250, 104, 104);
+        margin-top: 50px;
+        box-shadow: 4px 1px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    footer>div:first-child {
+        width: 100%;
+    }
+
+    footer > div:first-child > div:first-child {
+        margin: 20px 0;
+        display:flex;
+        justify-content: flex-start;
+        margin-left: 5%;
+        flex-direction: column;
+    }
+
+    footer > div:first-child > div:first-child h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: rgb(245, 244, 244);
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    footer > div:first-child > div:first-child label {
+        color: rgb(245, 244, 244);
+        font-weight: bold;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    }
+ 
+    footer > div:first-child > div:first-child input {
+        border: none;
+        font-size: 0.8em;
+        padding: 5px;
+        border-radius: 2px;
+        margin: 5px 0;
+        width: 70%;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    select {
+        width: 70;
+        margin: 10px 0;
+        width: 75%;
+        padding: 3px;
+        border: none;
+        font-size: 0.9em;
+        background-color: rgb(245, 244, 244);
+    }
+
+    textarea {
+        margin-top: 2%;
+        width: 90%;
+    }
+
+    .submit {
+        width: 10%;
+        border:none;
+        margin-top: 1%;
+        background-color: rgb(245, 244, 244);
+        padding:5px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+        font-weight: bold;
+        color:rgb(250, 104, 104);
+        margin-left: 80%;
+        transition: 1s background-color;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .submit:hover {
+        background-color: rgb(250, 104, 104);
+        color: rgb(245, 244, 244);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer>div:first-child>div:last-child {
+        display:none;
+    }
+
+    footer>div:first-child>div:last-child h4 {
+        font-size: 1.3em;
+        margin: 15px 0;
+        font-weight: bold;
+        color: rgb(245, 244, 244);
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    footer p {
+        color: rgb(245, 244, 244);
+        margin: 3px 0;
+    }
+
+    footer>div:last-child {
+        display: flex;
+        padding: 5px;
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+}
